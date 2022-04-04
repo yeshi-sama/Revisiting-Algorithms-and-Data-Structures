@@ -10,7 +10,7 @@ class Solution {
         // write your code in C# 6.0 with .NET 4.5 (Mono)
         // memoization
         int arrLength = A.Length;
-        if(arrLength == 1) return 0;
+        if(arrLength == 1) return A[0];
 
         // Sort the Array
         Array.Sort(A);     
